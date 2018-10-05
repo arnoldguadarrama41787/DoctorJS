@@ -45,7 +45,8 @@ class Gauge extends React.component  {
     }, 3000);
   }
   render() {
-    // console.log(this.getData());
+    console.log(this.getData());
+
     return (
       <div className="Gauge">
         <Chart

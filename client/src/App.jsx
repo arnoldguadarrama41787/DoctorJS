@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import injectTapEventPlugin from 'react-tap-event-plugin';
+// import injectTapEventPlugin from 'react-tap-event-plugin';
 import AppBar from 'material-ui/AppBar';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Loginscreen from './components/login/LoginScreen.js';
@@ -7,7 +7,7 @@ import UploadScreen from './components/login/PrimaryScreen';
 import Logout from '../src/components/login/Logout.js';
 import axios from 'axios';
 
-injectTapEventPlugin();
+// injectTapEventPlugin();
 
 class App extends Component {
   constructor(props) {
