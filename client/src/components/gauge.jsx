@@ -17,7 +17,9 @@ const getRandomNumber = () => {
 };
 
 class Gauge extends React.component  {
-  state = {
+  constructor(props) {
+    super(props);
+    this.state = {
     networkSpeed: 1,
     memory: 80
   };
